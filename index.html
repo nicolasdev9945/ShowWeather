@@ -1,31 +1,35 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>App Clima</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima App</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<header>
-    <h1>App Clima</h1>
-</header>
-<div class="main">
-    <div id="search">
-        <label for="city">Nome da Cidade</label>
-        <input type="text" id="city">
-        <button type="button">Mostrar Clima!</button>
-    </div>
-    <div id="load">Carregando...</div>
-    <div id="weather">
-        <h1 id="weatherCity">Nome da cidade</h1>
+    <header>
+        <h1>Mostrar Clima</h1>
+    </header>
+    <div class="main">
+        <div id="search">
+            <label for="city">Nome da Cidade</label>
+            <input type="text" id="city">
+            <button type="button">Mostrar Clima!</button>
+        </div>
+        <div id="load">Carregando...</div>
+        <div id="weather">
+            <h1 id="weatherCity">Nome da Cidade</h1>
 
-        <div id="weatherDescription">Descrição do clima</div>
-        <div id="weatherTemperature">Temperatura</div>
+            <div id="weatherDescription">Descrição do Clima</div>
+            <div id="weatherTemperature">Temperatura</div>
 
+        </div>
     </div>
-</div>
-<script src="init.js"></script>
-<script src="weather-data.js"></script>
-<script src="app.js"></script>
+    <script src="init.js"></script>
+    <script src="weather-data.js"></script>
+    <script src="app.js"></script>
 </body>
+
 </html>
